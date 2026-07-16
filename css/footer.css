@@ -1,0 +1,174 @@
+.footer {
+  background-color: #2e2f42;
+  padding: 100px 0;
+}
+
+.footer-container {
+  display: flex;
+}
+
+/* Logo and Description */
+.footer-logo-descr {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-right: 120px;
+}
+
+.footer-text {
+  width: 264px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #f4f4fd;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.logo-footer {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #f4f4fd;
+  line-height: 1.33333;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo-web {
+  color: #4d5ae5;
+}
+
+/* Socials */
+.footer-address {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footer-caption {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+
+.footer-card-social-list {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-card-social-item {
+}
+
+.footer-card-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #4d5ae5;
+  border-radius: 40px;
+  color: #f4f4fd;
+  width: 40px;
+  height: 40px;
+  transition: background-color 250ms ease-in-out;
+}
+
+.footer-card-social-link:hover,
+.footer-card-social-link:focus {
+  background-color: #31d0aa;
+}
+
+.footer-card-social-list .footer-social-svg {
+  fill: currentColor;
+}
+
+/* Subscribe */
+
+.footer-subscribe {
+  display: flex;
+  flex-direction: column;
+  margin-left: 83px;
+}
+
+.footer-subscribe-caption {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.footer-form {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.footer-form-label {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-form-input {
+  display: flex;
+  align-items: center;
+
+  border: 1px solid #fff;
+  border-radius: 4px;
+  padding: 8px 16px;
+  width: 264px;
+  height: 40px;
+  outline: none;
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.04em;
+  color: #fff;
+
+  background-color: transparent;
+
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-form-input::placeholder {
+  color: #fff;
+}
+
+.footer-form-input:focus {
+  border-color: #31d0aa;
+}
+
+.footer-subscribe-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+
+  background-color: #4d5ae5;
+
+  border: none;
+  border-radius: 4px;
+  padding: 8px 24px;
+  height: 40px;
+  max-width: 165px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-subscribe-btn:hover,
+.footer-subscribe-btn:focus {
+  background-color: #31d0aa;
+}
+
+.footer-send-svg {
+}
