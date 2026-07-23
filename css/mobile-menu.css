@@ -1,0 +1,134 @@
+.mobile-menu {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 320px;
+  height: 640px;
+
+  padding: 72px 16px 40px;
+
+  background-color: #fff;
+
+  display: none;
+}
+
+.mobile-menu-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
+  top: 24px;
+  right: 24px;
+
+  width: 24px;
+  height: 24px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 50%;
+
+  color: #2e2f42;
+  background-color: #e7e9fc;
+
+  transition:
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mobile-menu-icon {
+  fill: currentColor;
+}
+
+.mobile-menu-btn:hover,
+.mobile-menu-btn:focus {
+  color: #fff;
+  background-color: #404bbf;
+}
+
+/* Nav */
+
+.mobile-menu-nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+  margin-bottom: auto;
+  list-style-type: none;
+}
+.mobile-menu-nav-item {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-decoration: none;
+
+  transition: color 250ms ease-in-out;
+}
+
+.mobile-menu-nav-item:hover,
+.mobile-menu-nav-item:focus {
+  color: #404bbf;
+}
+
+/* Address */
+
+.mobile-menu-address {
+}
+.mobile-menu-address-list {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 24px;
+  list-style-type: none;
+
+  padding: 0;
+}
+.mobile-menu-address-link {
+  display: block;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #434455;
+  font-style: normal;
+  text-decoration: none;
+  transition: color 250ms ease-in-out;
+}
+
+.mobile-menu-address-link:hover,
+.mobile-menu-address-link:focus {
+  color: #404bbf;
+}
+
+/* Socials */
+
+.mobile-menu-social-list {
+  margin-top: 48px;
+  display: flex;
+  gap: 40px;
+}
+
+.mobile-menu-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #4d5ae5;
+  border-radius: 40px;
+  color: #f4f4fd;
+  width: 40px;
+  height: 40px;
+  transition: background-color 250ms ease-in-out;
+}
+
+.mobile-menu-social-link:hover,
+.mobile-menu-social-link:focus {
+  background-color: #404bbf;
+}
+
+.mobile-menu-social-list .mobile-menu-social-icon {
+  fill: currentColor;
+}

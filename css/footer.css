@@ -1,27 +1,20 @@
 .footer {
   background-color: #2e2f42;
-  padding: 100px 0;
+  padding: 96px 0;
 }
 
 .footer-container {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 72px;
 }
 
-/* Logo and Description */
 .footer-logo-descr {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  margin-right: 120px;
-}
-
-.footer-text {
-  width: 264px;
-  font-weight: 400;
-  font-size: 16px;
-  color: #f4f4fd;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+  width: 100%;
 }
 
 .logo-footer {
@@ -33,10 +26,20 @@
   line-height: 1.33333;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin: 0 auto;
 }
 
 .logo-web {
   color: #4d5ae5;
+}
+
+.footer-text {
+  width: 264px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #f4f4fd;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* Socials */
@@ -59,9 +62,6 @@
   gap: 16px;
   justify-content: center;
   align-items: center;
-}
-
-.footer-card-social-item {
 }
 
 .footer-card-social-link {
@@ -90,7 +90,8 @@
 .footer-subscribe {
   display: flex;
   flex-direction: column;
-  margin-left: 83px;
+  align-items: center;
+  width: 288px;
 }
 
 .footer-subscribe-caption {
@@ -104,8 +105,9 @@
 
 .footer-form {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 24px;
+  gap: 16px;
 }
 
 .footer-form-label {
@@ -170,14 +172,47 @@
   background-color: #31d0aa;
 }
 
-.footer-send-svg {
-}
-
-@media (min-width: 320px) {
-}
-
 @media (min-width: 768px) {
+  .footer-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 108px;
+    gap: 72px 24px;
+  }
+
+  .footer-logo-descr {
+    max-width: 264px;
+  }
+
+  .logo-footer {
+    margin: 0;
+  }
+
+  .footer-subscribe {
+    align-items: flex-start;
+  }
+
+  .footer-form {
+    flex-direction: row;
+    gap: 24px;
+  }
 }
 
 @media (min-width: 1158px) {
+  .footer {
+    padding: 100px 0;
+  }
+
+  .footer-container {
+    flex-wrap: nowrap;
+    gap: 0;
+  }
+
+  .footer-logo-descr {
+    margin-right: 120px;
+  }
+
+  .footer-subscribe {
+    margin-left: 83px;
+  }
 }

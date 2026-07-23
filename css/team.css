@@ -2,9 +2,6 @@
   background-color: #f4f4fd;
 }
 
-.team-container {
-}
-
 .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -17,7 +14,10 @@
 
 .team-list {
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
+  margin-right: 12px;
+  margin-left: 12px;
+  gap: 72px;
   margin-top: 72px;
   margin-bottom: 0;
   padding-left: 0;
@@ -67,9 +67,6 @@
   align-items: center;
 }
 
-.team-card-social-item {
-}
-
 .team-card-social-link {
   display: flex;
   justify-content: center;
@@ -92,7 +89,18 @@
 }
 
 @media (min-width: 768px) {
+  .team-list {
+    gap: 64px 24px;
+    margin-right: 92px;
+    margin-left: 92px;
+  }
 }
 
 @media (min-width: 1158px) {
+  .team-list {
+    margin-right: 0;
+    margin-left: 0;
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
 }

@@ -82,4 +82,8 @@
   .hero-container {
     gap: 48px;
   }
+
+  .hero-title {
+    max-width: 496px;
+  }
 }
