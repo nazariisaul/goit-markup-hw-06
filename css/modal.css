@@ -326,6 +326,7 @@
   .modal {
     width: 408px;
     height: 584px;
+    padding: 72px 24px 24px;
   }
 
   .modal-caption {

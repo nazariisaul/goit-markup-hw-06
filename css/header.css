@@ -4,7 +4,7 @@
   display: flex;
   border-bottom: 1px solid #e7e9fc;
   margin-bottom: 0;
-  padding: 16px 0;
+  padding: 0;
 }
 
 .header-container {
@@ -14,13 +14,18 @@
 }
 
 .logo {
+  display: inline-block;
+  padding-top: 16px;
+  padding-bottom: 16px;
+
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
   text-decoration: none;
-  color: #2e2f42;
   line-height: 1.33333;
   letter-spacing: 0.03em;
+
+  color: #2e2f42;
   text-transform: uppercase;
 }
 
@@ -68,7 +73,9 @@
   }
 
   .logo {
-    margin-right: 76px;
+    margin-right: 120px;
+    padding-top: 24px;
+    padding-bottom: 24px;
   }
 
   /* Navigations styles */
