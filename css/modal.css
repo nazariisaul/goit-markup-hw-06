@@ -322,3 +322,12 @@
 .modal-send-btn:focus {
   background-color: #404bbf;
 }
+
+@media (min-width: 320px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1158px) {
+}
