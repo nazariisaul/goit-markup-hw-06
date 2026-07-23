@@ -106,4 +106,8 @@
     width: 360px;
     height: 300px;
   }
+
+  .portfolio-list {
+    row-gap: 48px;
+  }
 }
